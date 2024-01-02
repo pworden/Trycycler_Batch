@@ -12,10 +12,13 @@ Description of the Trycycler workflow using these additional scripts can be foun
 ## Conda environments
 
 1. A conda environment with trycycler
+   - Can set up a trycycler conda environment using the trycycler.yml file in the `Conda_envs` folder
 1. A conda environment with medaka (separate from trycycler)
+   - Can set up a medaka conda environment using the medaka.yml file in the `Conda_envs` folder
 1. A conda environment that is separate from trycycler and medaka in which conda packages are installed to perform short read polishing (eg. sr_polish)
-   - Include packages such as: *BWA, polypolish, masurca (containing polca) and minimap2*.
-   - check (once in the environment) with 'conda list'
+   - Can set up a medaka conda environment using the medaka.yml file in the `Conda_envs` folder
+     - Include packages such as: *BWA, polypolish, masurca (containing polca) and minimap2*.
+     - Activate the environment and check if the required packages are present with 'conda list'
 
 ## Overview *- all scripts*
 This repository is a summary of scripts that implement the Trycycler functions to assemble bacterial genomes. Initially flye, miniasm, raven and necat are used to assemble bacterial genomes from long read sequences, and then Trycycler functions are used to deliver a polished long read assembly. The final step involves short read polishing of each long-read polished assembly via the script `sr_polish.sh`.
