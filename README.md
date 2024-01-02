@@ -162,7 +162,7 @@ The structure of the TSV looks like this (no headers, filename of "barcodeAndPar
 
 ---
 
-### Run Short Read Polish
+### Short Read Polish
 
 **Uses 2 scripts:**
 
