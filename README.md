@@ -13,10 +13,13 @@ Description of the Trycycler workflow using these additional scripts can be foun
 
 1. A conda environment with trycycler
    - Can set up a trycycler conda environment using the trycycler.yml file in the `Conda_envs` folder
+     - <https://github.com/pworden/trycycler_Batch/tree/main/Conda_envs>
 1. A conda environment with medaka (separate from trycycler)
    - Can set up a medaka conda environment using the medaka.yml file in the `Conda_envs` folder
+     - <https://github.com/pworden/trycycler_Batch/tree/main/Conda_envs>
 1. A conda environment that is separate from trycycler and medaka in which conda packages are installed to perform short read polishing (eg. sr_polish)
    - Can set up a medaka conda environment using the medaka.yml file in the `Conda_envs` folder
+     - <https://github.com/pworden/trycycler_Batch/tree/main/Conda_envs>
      - Include packages such as: *BWA, polypolish, masurca (containing polca) and minimap2*.
      - Activate the environment and check if the required packages are present with 'conda list'
 
