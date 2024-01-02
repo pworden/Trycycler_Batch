@@ -2,8 +2,8 @@
 
 # ---------------------------------- USER INPUT ----------------------------------
 # --------------------------------------------------------------------------------
-fastq_parent_directory="/home/wordenp/projects/AFB_project/raw/sequence_data/Select_Bee_AFB_Illumina_fastq"
-inputTSV="/home/wordenp/projects/AFB_project/analyses/Gridion_11and12-12-23/Gridion_2Runs_Combined/try_Out/barcodeAndPartialStringID.tsv"
+fastq_parent_directory="/path/to/Illumina_fastq_directory"
+inputTSV="/path/to/Gridion-run/Trycycler_Output/barcodeAndPartialStringID.tsv"
 output_file="fastqIlluminaPaths.tsv"
 # Illumina forward read file extension
 fileExtension_F="R1_fastp.fq.gz"
