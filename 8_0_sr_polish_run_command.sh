@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Start conda environment
-source /home/wordenp/mambaforge/etc/profile.d/conda.sh # Path to conda
+source /path/to/mambaforge/etc/profile.d/conda.sh # Path to conda
 conda activate shortReadPolish
 
 # ---------------------------------- USER INPUT ----------------------------------
 # --------------------------------------------------------------------------------
-inputTSV="/home/wordenp/projects/AFB_project/analyses/Gridion_11and12-12-23/Gridion_2Runs_Combined/try_Out/fastqIlluminaPaths.tsv"
-trycyclerParentDir="/home/wordenp/projects/AFB_project/analyses/Gridion_11and12-12-23/Gridion_2Runs_Combined/try_Out"
+inputTSV="/path/to/Gridion-run/Trycycler_Output/fastqIlluminaPaths.tsv"
+trycyclerParentDir="/path/to/Gridion-run/Trycycler_Output"
 stringToSearch="medaka.fasta"
-sr_polishPath="/home/wordenp/Scripts/General_Scripts/Trycycler/8_1_sr_polish.sh"
+sr_polishPath="path/to/trycycler-scripts/8_1_sr_polish.sh"
 numberOfThreads="30"
 # --------------------------------------------------------------------------------
 # -------------------------------- End User Input --------------------------------
