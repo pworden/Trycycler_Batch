@@ -13,7 +13,7 @@ contigLettersToExclude=""
 
 # ------------- Full Command -------------
 	# Last 2 flags are optional
-# bash "/home/wordenp/scripts/exnrec.sh" ${clusterDirectory} ${longReadsDirectory} ${threads} ${contig_letters_to_exclude} [${max_add_seq_percent}] [${max_length_diff}]
+# bash "/path/to/scripts/exnrec.sh" ${clusterDirectory} ${longReadsDirectory} ${threads} ${contig_letters_to_exclude} [${max_add_seq_percent}] [${max_length_diff}]
 # ----------------------------------------
 
 bash "/home/wordenp/Scripts/General_Scripts/Trycycler/2_2_exnrec.sh" ${clusterDirectory} ${longReads} ${threads} ${contigLettersToExclude}
