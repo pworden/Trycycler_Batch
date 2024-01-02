@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # Start conda environment
-source /home/wordenp/mambaforge/etc/profile.d/conda.sh # Path to conda
+source /path/to/mamba/mambaforge/etc/profile.d/conda.sh # Path to conda
 conda activate trycycler
 
 # ------------------------------ USER INPUT ------------------------------
 # 
 # Parent directory under which the read files can all be found (and their paths):
-parentDirOf_fastqGz_files="/home/wordenp/projects/AFB_project/analyses/Gridion_11and12-12-23/Gridion_2Runs_Combined_Fastq"
-targetFileSuffix="sup_000filtlong*.fastq.gz"
+parentDirOf_fastqGz_files="/Path/to/Fastq_Parent_Directory"
+targetFileSuffix="sup_filtlong*.fastq.gz"
 # Parent output directory
-outputDirParent="/home/wordenp/projects/AFB_project/analyses/Gridion_11and12-12-23/trycycler_output"
+outputDirParent="/path/to/Gridion-run/trycycler_output"
 # Script Path
-scriptPath="/home/wordenp/Scripts/General_Scripts/Trycycler/1_2_high_cov_assembly_script.sh"
+scriptPath="/path/to/script/1_2_high_cov_assembly_script.sh"
 
 
 # Check before changing the following:
