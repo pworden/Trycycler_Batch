@@ -8,7 +8,7 @@ conda activate trycycler
 # 
 # Parent directory under which the read files can all be found (and their paths):
 parentDirOf_fastqGz_files="/Path/to/Fastq_Parent_Directory"
-targetFileSuffix="sup_filtlong*.fastq.gz"
+targetFileSuffix="*.fastq.gz"
 # Parent output directory
 outputDirParent="/path/to/Gridion-run/trycycler_output"
 # Script Path
